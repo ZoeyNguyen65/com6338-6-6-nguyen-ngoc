@@ -13,7 +13,7 @@ document.addEventListener('click', (event) => {
     }
 });
   
-document.addEventListener('keydown', (event) => {
+document.addEventListener('keyup', (event) => {
     if (event.key === 'Escape' && hamburgerMenu.classList.contains('show-menu')) {
     hamburgerMenu.classList.remove('show-menu');
     hamburgerBtn.ariaExpanded = 'false';
